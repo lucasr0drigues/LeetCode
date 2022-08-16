@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1337.TheKWeakestRowsInAMatr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "876.MiddleOfTheLinkedList", "876.MiddleOfTheLinkedList\876.MiddleOfTheLinkedList.csproj", "{2870F524-9AE6-41C3-A854-C3BAF2F08FC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "412.FizzBuzz", "412.FizzBuzz\412.FizzBuzz.csproj", "{5812C3E7-AB51-4DBF-93F9-16EB3951A430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2870F524-9AE6-41C3-A854-C3BAF2F08FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2870F524-9AE6-41C3-A854-C3BAF2F08FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2870F524-9AE6-41C3-A854-C3BAF2F08FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5812C3E7-AB51-4DBF-93F9-16EB3951A430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5812C3E7-AB51-4DBF-93F9-16EB3951A430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5812C3E7-AB51-4DBF-93F9-16EB3951A430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5812C3E7-AB51-4DBF-93F9-16EB3951A430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

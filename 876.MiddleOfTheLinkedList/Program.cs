@@ -20,7 +20,7 @@ while (solution2 != null)
 {
     Console.WriteLine(solution2.val);
     solution2 = solution2.next;
-} ;
+};
 
 public class Solution
 {
