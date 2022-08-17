@@ -22,14 +22,13 @@ public class Solution
 {
     public int RomanToInt(string s)
     {
-        char[] arr = s.ToCharArray();
         int total = 0;
         int anterior = 0;
-        int valor = 0;
+        int valor;
 
-        for (int i = 0; i < arr.Length; i++)
+        for (int i = 0; i < s.Length; i++)
         {
-            valor = ValueInt(arr[i]);
+            valor = ValueInt(s[i]);
 
             if (valor > anterior && i>0)
                 total += valor - anterior*2;
@@ -38,7 +37,6 @@ public class Solution
 
             anterior = valor;
         }
-
 
         return total;
     }
