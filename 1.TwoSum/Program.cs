@@ -16,27 +16,39 @@ public class Solution
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        int[] answer = new int[2];
+        var dic = new Dictionary<int, int>();
 
         for (int i = 0; i < nums.Length; i++)
         {
-            for (int j = 0; j < nums.Length; j++)
-            {
-                if (i == j)
-                    continue;
+            if (dic.ContainsKey(target - nums[i]))
+                return new int[] { dic[target - nums[i]], i };
 
-                if (nums[i] + nums[j] == target)
-                {
-                    answer[0]=i;
-                    answer[1]=j;
-                    return answer;
-                }
-
-
-            }
+            if (!dic.ContainsKey(nums[i]))          
+                dic.Add(nums[i], i);
         }
 
-        return answer;
+        return new int[2];
+
+
+        //int[] answer = new int[2];
+
+        //for (int i = 0; i < nums.Length; i++)
+        //{
+        //    for (int j = 0; j < nums.Length; j++)
+        //    {
+        //        if (i == j)
+        //            continue;
+
+        //        if (nums[i] + nums[j] == target)
+        //        {
+        //            answer[0]=i;
+        //            answer[1]=j;
+        //            return answer;
+        //        }
+        //    }
+        //}
+
+        //return answer;
 
     }
 }
