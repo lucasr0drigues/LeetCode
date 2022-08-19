@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217.ContainsDuplicate", "21
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "242.ValidAnagram", "242.ValidAnagram\242.ValidAnagram.csproj", "{5C16A74D-3462-49FF-8D2D-1CCF91CE964B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49.GroupAnagrams", "49.GroupAnagrams\49.GroupAnagrams.csproj", "{0786F098-4819-4AF3-A9C2-051C5056189E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{5C16A74D-3462-49FF-8D2D-1CCF91CE964B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C16A74D-3462-49FF-8D2D-1CCF91CE964B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C16A74D-3462-49FF-8D2D-1CCF91CE964B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0786F098-4819-4AF3-A9C2-051C5056189E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0786F098-4819-4AF3-A9C2-051C5056189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0786F098-4819-4AF3-A9C2-051C5056189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0786F098-4819-4AF3-A9C2-051C5056189E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
