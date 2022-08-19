@@ -15,17 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "412.FizzBuzz", "412.FizzBuz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "383.RansomNote", "383.RansomNote\383.RansomNote.csproj", "{109619EC-8250-4C90-8F48-69CBB83CB0F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "234.PalindromeLinkedList", "234.PalindromeLinkedList\234.PalindromeLinkedList.csproj", "{43BB3FA2-2607-44AF-BB8F-C59DCF79B2EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "234.PalindromeLinkedList", "234.PalindromeLinkedList\234.PalindromeLinkedList.csproj", "{43BB3FA2-2607-44AF-BB8F-C59DCF79B2EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.RomanToInteger", "13.RomanToInteger\13.RomanToInteger.csproj", "{11D841FE-6EA3-4B60-AC8E-344C50E6FD59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.RomanToInteger", "13.RomanToInteger\13.RomanToInteger.csproj", "{11D841FE-6EA3-4B60-AC8E-344C50E6FD59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.TwoSum", "1.TwoSum\1.TwoSum.csproj", "{45FE6B53-240E-4C0A-8859-D885D47B0E10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.TwoSum", "1.TwoSum\1.TwoSum.csproj", "{45FE6B53-240E-4C0A-8859-D885D47B0E10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217.ContainsDuplicate", "217.ContainsDuplicate\217.ContainsDuplicate.csproj", "{61345CB9-0323-4B5B-84DF-B491B3936575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "217.ContainsDuplicate", "217.ContainsDuplicate\217.ContainsDuplicate.csproj", "{61345CB9-0323-4B5B-84DF-B491B3936575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "242.ValidAnagram", "242.ValidAnagram\242.ValidAnagram.csproj", "{5C16A74D-3462-49FF-8D2D-1CCF91CE964B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "242.ValidAnagram", "242.ValidAnagram\242.ValidAnagram.csproj", "{5C16A74D-3462-49FF-8D2D-1CCF91CE964B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49.GroupAnagrams", "49.GroupAnagrams\49.GroupAnagrams.csproj", "{0786F098-4819-4AF3-A9C2-051C5056189E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49.GroupAnagrams", "49.GroupAnagrams\49.GroupAnagrams.csproj", "{0786F098-4819-4AF3-A9C2-051C5056189E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347.TopKFrequentElements", "347.TopKFrequentElements\347.TopKFrequentElements.csproj", "{7063A59D-655F-4E21-9064-8F1210E3B69C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{0786F098-4819-4AF3-A9C2-051C5056189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0786F098-4819-4AF3-A9C2-051C5056189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0786F098-4819-4AF3-A9C2-051C5056189E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7063A59D-655F-4E21-9064-8F1210E3B69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7063A59D-655F-4E21-9064-8F1210E3B69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7063A59D-655F-4E21-9064-8F1210E3B69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7063A59D-655F-4E21-9064-8F1210E3B69C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
