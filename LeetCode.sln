@@ -71,6 +71,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BitManipulation", "BitManip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36.ValidSudoku", "36.ValidSudoku\36.ValidSudoku.csproj", "{DA880E8C-EC44-4BE9-8444-668C31C05BFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "128.LongestConsecutiveSequence", "128.LongestConsecutiveSequence\128.LongestConsecutiveSequence.csproj", "{17BB1595-1D89-4E64-ABCC-453039D8B08A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{DA880E8C-EC44-4BE9-8444-668C31C05BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA880E8C-EC44-4BE9-8444-668C31C05BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA880E8C-EC44-4BE9-8444-668C31C05BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BB1595-1D89-4E64-ABCC-453039D8B08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BB1595-1D89-4E64-ABCC-453039D8B08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BB1595-1D89-4E64-ABCC-453039D8B08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BB1595-1D89-4E64-ABCC-453039D8B08A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +163,7 @@ Global
 		{7063A59D-655F-4E21-9064-8F1210E3B69C} = {B2F06A5F-D01F-4897-BB53-5FE4B64F2B74}
 		{6527F53B-AD48-46CE-8CA6-9B515AD29E61} = {B2F06A5F-D01F-4897-BB53-5FE4B64F2B74}
 		{DA880E8C-EC44-4BE9-8444-668C31C05BFA} = {B2F06A5F-D01F-4897-BB53-5FE4B64F2B74}
+		{17BB1595-1D89-4E64-ABCC-453039D8B08A} = {B2F06A5F-D01F-4897-BB53-5FE4B64F2B74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13DDF71E-93FE-4938-8540-F558B3B073FB}
