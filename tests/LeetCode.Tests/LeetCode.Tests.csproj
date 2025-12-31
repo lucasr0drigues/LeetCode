@@ -20,7 +20,10 @@
 
   <ItemGroup>
     <Folder Include="Shared\" />
-    <Folder Include="Problems\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\LeetCode\LeetCode.csproj" />
   </ItemGroup>
 
 </Project>
