@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LeetCode.Problems._217_ContainsDuplicate
 {
-    public class Solution
+    public class _217_ContainsDuplicate_Solution
     {
         public bool ContainsDuplicate(int[] nums)
         {

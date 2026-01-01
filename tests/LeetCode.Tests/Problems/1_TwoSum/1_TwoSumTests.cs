@@ -1,7 +1,4 @@
 ﻿using LeetCode.Problems._1_TwoSum;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LeetCode.Tests.Problems._1_TwoSum
 {
@@ -13,7 +10,7 @@ namespace LeetCode.Tests.Problems._1_TwoSum
         [InlineData(new[] { 3, 3 }, 6, new[] { 0, 1 })]
         public void TwoSum_Test(int[] nums, int target, int[] expected)
         {
-            var solution = new Solution();
+            var solution = new _1_TwoSum_Solution();
 
             var result = solution.TwoSum(nums, target);
 
