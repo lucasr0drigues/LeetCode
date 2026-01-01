@@ -8,17 +8,32 @@ namespace LeetCode.Problems._217_ContainsDuplicate
     {
         public bool ContainsDuplicate(int[] nums)
         {
-            var dictionary = new Dictionary<int, int>();
+            var hashSet = new HashSet<int>();
 
-            for(int i = 0; i < nums.Length; i++)
+            foreach (int i in nums)
             {
-                if (dictionary.ContainsKey(nums[i]))
+                if(hashSet.Contains(i))
                     return true;
 
-                dictionary[nums[i]] = i;
+                hashSet.Add(i);
             }
 
             return false;
         }
+
+        //public bool ContainsDuplicate(int[] nums)
+        //{
+        //    var dictionary = new Dictionary<int, int>();
+
+        //    for(int i = 0; i < nums.Length; i++)
+        //    {
+        //        if (dictionary.ContainsKey(nums[i]))
+        //            return true;
+
+        //        dictionary[nums[i]] = i;
+        //    }
+
+        //    return false;
+        //}
     }
 }
