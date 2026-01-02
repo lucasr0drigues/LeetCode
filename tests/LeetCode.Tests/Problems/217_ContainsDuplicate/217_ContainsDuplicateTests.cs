@@ -15,8 +15,6 @@ namespace LeetCode.Tests.Problems._217_ContainsDuplicate
         {
             var solution = new _217_ContainsDuplicate_Solution();
 
-            solution.ContainsDuplicate(input);
-
             Assert.Equal(output, solution.ContainsDuplicate(input));
         }
     }
